@@ -1,0 +1,83 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-box button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.product-card p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.product-card a {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #333;
+}
